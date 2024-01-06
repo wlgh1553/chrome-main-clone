@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 3%;
+  width: 70vw;
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2,
+h1 {
+  text-align: center;
+}
+
+#clock {
+  font-size: 40px;
+}
+
+#login-form {
+  margin: 5%;
+}
+
+.input-text:focus {
+  outline: none;
+}
+
+.input-text::placeholder {
+  color: #8ead9d;
+}
+
+.input-text {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  border-bottom: 2px solid #2f825a;
+  color: #44ba81;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  font-size: 15px;
+
+  width: 50vw;
+  height: 5vh;
+}
+
+.input-btn {
+  background-color: #44ba81;
+  color: white;
+  margin-top: 2px;
+  transition: all 0.1s ease-in-out;
+}
+
+#todo-list {
+  list-style: none;
+  color: #2f825a;
+}
+
+ul {
+  position: relative;
+  height: 20vh;
+  overflow: auto;
+}
+
+li {
+  height: 5vh;
+  width: 50vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: all 0.1s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+button {
+  border: none;
+  background-color: #44ba81;
+  border-radius: 10%;
+  font-size: 18px;
+  transition: all 0.1s ease-in-out;
+}
+
+li:hover,
+li:hover button {
+  background-color: #44ba81;
+}
+
+#quote {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3%;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+  top: -10vh;
+}
+
+#weather {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3%;
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+
+  position: relative;
+  bottom: -10vh;
+}
